@@ -1,0 +1,76 @@
+# Training on the Cerebras Wafer-Scale Cluster
+
+To access Cerebras CS-3 deployed at ALCF, please submit a DD allocation request. Once it is approved, you may use the following steps. 
+
+## Connecting to CS-3
+Users connect via SSH to the login node, cerebras.alcf.anl.gov and then ssh to a user node, using either cer-usn-01 or cer-usn-02.
+
+The trees /home, /projects, and /software are shared across the login nodes and user nodes, the relevant cluster infrastructure nodes, and all ALCF AI testbed platforms.
+
+To connect to a CS-3 login:
+
+ssh to the login node:
+
+```bash
+ssh ALCFUserID@cerebras.alcf.anl.gov
+```
+
+Then ssh to a cerebras user node:
+
+```bash
+ssh cer-usn-01
+or
+ssh cer-usn-02
+```
+
+## Clone Cerebras modelzoo
+
+We use an example from [Cerebras Modelzoo repository](https://github.com/Cerebras/modelzoo) for this hands-on. 
+```bash
+mkdir ~/R_2.6.0
+cd ~/R_2.6.0
+export HTTPS_PROXY=http://proxy.alcf.anl.gov:3128
+git clone https://github.com/Cerebras/modelzoo.git
+cd modelzoo
+git tag
+git checkout Release_2.6.0
+```
+
+## Prerequisite: Create Virtual Environment 
+
+### PyTorch virtual environment
+
+```bash
+cd ~/R_2.6.0
+# Note: "deactivate" does not actually work in scripts.
+deactivate
+rm -r venv_cerebras_pt
+/usr/bin/python3.11 -m venv venv_cerebras_pt
+source venv_cerebras_pt/bin/activate
+export HTTPS_PROXY=http://proxy.alcf.anl.gov:3128
+pip install --upgrade pip
+pip install -e modelzoo
+```
+
+## Job Queuing and Submission
+
+The CS-3 cluster has its own Kubernetes-based system for job submission and queuing. Jobs are started automatically through the Python scripts. 
+
+Use Cerebras cluster command line tool to get addional information about the jobs.
+
+* Jobs that have not yet completed can be listed as
+    `(venv_pt) $ csctl get jobs`
+* Jobs can be canceled as shown:
+    `(venv_tf) $ csctl cancel job wsjob-eyjapwgnycahq9tus4w7id`
+
+See `csctl -h` for more options.
+
+## Hands-on Example
+* [LLAMA2-7B](./llama2-7b.md)
+
+
+# Useful Resources 
+
+* [Cerebras Documntation](https://docs.cerebras.net/en/latest/wsc/index.html)
+* [Cerebras Modelzoo Repo](https://github.com/Cerebras/modelzoo/tree/main/modelzoo)
+* Datasets Path: `/software/cerebras/dataset`
