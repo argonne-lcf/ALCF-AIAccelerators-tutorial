@@ -14,7 +14,7 @@ In this tutorial, we will cover an overview of the AI accelerators landscape foc
 
 ## Speakers: 
 
-Murali Emani (ANL), Petro Jr Milan/Tim Clark (SambaNova), Leighton Wilson (Cerebras)
+Murali Emani (ANL),  Leighton Wilson (Cerebras), Petro Jr Milan/Tim Clark (SambaNova),
 
 ## Agenda
 
