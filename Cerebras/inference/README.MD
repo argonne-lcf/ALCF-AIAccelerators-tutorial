@@ -47,7 +47,7 @@ The Cerebras Inference cloud currently supports the following models:
  | OpenAI GPT OSS			| `gpt-oss-120b`		 | 120 billion	| ~3000 tokens/s
  | Qwen 3 32B				| `qwen-3-32b`			 | 32 billion	| ~2600 tokens/s
  | Qwen 3 235B Instruct (preview only)	| `qwen-3-235b-a22b-instruct-2507` | 235 billion | ~1400 tokens/s
- | Z.ai GLM 4.6 (preview only)		| `qwen-3-235b-a22b-instruct-2507` | 357 billion | ~1000 tokens/s
+ | Z.ai GLM 4.7 (preview only)		| `zai-glm-4.7` 		 | 355 billion | ~1000 tokens/s
 
 Try a simple chat completion with `Llama 3.1 8B` by running the below Python code snippet,
 which can be found in `test.py` in this directory:
