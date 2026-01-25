@@ -20,10 +20,10 @@ Murali Emani (ANL),  Leighton Wilson (Cerebras), Petro Jr Milan/Tim Clark (Samba
 
 | Time (EST) | Topic/Speaker |
 |------------|---------------|
-| 9:30 AM - 9:45 AM | Welcome and Overview of the ALCF AI Testbed (Murali) <br> [Slides](./ALCF-AITestbed-SC25-tutorial.pdf) |
+| 9:30 AM - 9:45 AM | Welcome and Overview of the ALCF AI Testbed (Murali) <br> [Slides](./ALCF-AITestbed-SCA26-tutorial.pdf) |
 | 9:45 AM - 10:45 AM | Cerebras (Leighton)  [Slides](./Cerebras/ANL_SC_Tutorial_Company_and_AI_Overview.pdf) <br>| 
 | 10:45 AM - 11:15 AM | Coffee Break <br> |
-| 11.15 AM - 12:00 PM | SambaNova (Tim)  [Slides](./Sambanova/SC25_SambaNova.pdf)|
+| 11.15 AM - 12:00 PM | SambaNova (Tim)  [Slides](./Sambanova/SCA_HPC_SambaNova.pdf)|
 | 12:00 PM - 12:20 PM | Groq (Murali) | 
 | 12.20 PM - 12:30 PM | Q&A and Conclusion (Murali) <br> |
 
