@@ -6,28 +6,31 @@ In this tutorial, we will cover an overview of the AI accelerators landscape foc
 
 
 
-## Tutorial at SCA/HPC Asia 2026
+## Tutorial at NAIRR Annual Meeting, 2026
 
-| Date      | 26 January 2026                   |
+| Date      | 10 March 2026                   |
 |-----------|--------------------------------|
-| Time      |  9:30 AM - 12.30 PM local time  |
+| Time      |  9:00 AM - 5.00 PM local time  |
 
 ## Speakers: 
 
-Murali Emani (ANL),  Leighton Wilson (Cerebras), Petro Jr Milan/Tim Clark (SambaNova),
+Murali Emani (ANL), Varuni Sastry (ANL), Sylvia Howland (Cerebras), Tim Clark (SambaNova)
 
 ## Agenda
 
 | Time (EST) | Topic/Speaker |
 |------------|---------------|
-| 9:30 AM - 9:45 AM | Welcome and Overview of the ALCF AI Testbed (Murali) <br> [Slides](./ALCF-AITestbed-SCA26-tutorial.pdf) |
-| 9:45 AM - 10:45 AM | Cerebras (Leighton)  [Slides](./Cerebras/ANL_SC_Tutorial_Company_and_AI_Overview.pdf) <br>| 
-| 10:45 AM - 11:15 AM | Coffee Break <br> |
-| 11.15 AM - 12:00 PM | SambaNova (Tim)  [Slides](./Sambanova/SCA_HPC_SambaNova.pdf)|
-| 12:00 PM - 12:20 PM | Groq (Murali) | 
-| 12.20 PM - 12:30 PM | Q&A and Conclusion (Murali) <br> |
-
-
+| 9:00 AM - 9:15 AM | Welcome and Overview of the ALCF AI Testbed <br> [Slides](./ALCF-AITestbed-SCA26-tutorial.pdf) |
+| 9:15 AM - 10:30 AM | Cerebras  [Slides](./Cerebras/ANL_SC_Tutorial_Company_and_AI_Overview.pdf) <br>| 
+| 10:30 AM - 11:00 AM | Coffee Break <br> |
+| 11.00 AM - 11:30 PM |Cerebras  [Slides](./Sambanova/SCA_HPC_SambaNova.pdf)|
+| 11:30 AM - 12:30 PM | SambaNova <br> | 
+| 12:30 PM - 1:30 PM | Lunch | 
+| 1.30 PM - 2:00 PM | SambaNova <br> |
+| 2.00 PM - 3:00 PM | Tenstorrent <br> |
+| 3:00 PM - 3:30 PM | Coffee Break <br> |
+| 3.30 PM - 4:00 PM |  Groq <br> |
+| 4:00 PM - 5:00 PM | Discussion, Q&A|
 
 ## Request Account on AI Testbeds At ALCF
 
