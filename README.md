@@ -20,17 +20,16 @@ Murali Emani (ANL), Varuni Sastry (ANL), Sylvia Howland (Cerebras), Tim Clark (S
 
 | Time (EST) | Topic/Speaker |
 |------------|---------------|
-| 9:00 AM - 9:15 AM | Welcome and Overview of the ALCF AI Testbed <br> [Slides](./ALCF-AITestbed-SCA26-tutorial.pdf) |
-| 9:15 AM - 10:30 AM | Cerebras  [Slides](./Cerebras/ANL_SC_Tutorial_Company_and_AI_Overview.pdf) <br>| 
+| 9:00 AM - 9:15 AM | Welcome and Overview of the ALCF AI Testbed [Slides]()  <br> |
+| 9:15 AM - 10:30 AM | SambaNova  [Slides]() <br>| 
 | 10:30 AM - 11:00 AM | Coffee Break <br> |
-| 11.00 AM - 11:30 PM |Cerebras  [Slides](./Sambanova/SCA_HPC_SambaNova.pdf)|
-| 11:30 AM - 12:30 PM | SambaNova <br> | 
+| 11.00 AM - 12:30 PM |Cerebras  [Slides]() <br>|
 | 12:30 PM - 1:30 PM | Lunch | 
-| 1.30 PM - 2:00 PM | SambaNova <br> |
+| 1.30 PM - 2:00 PM | Discussion, Q&A <br> |
 | 2.00 PM - 3:00 PM | Tenstorrent <br> |
 | 3:00 PM - 3:30 PM | Coffee Break <br> |
-| 3.30 PM - 4:00 PM |  Groq <br> |
-| 4:00 PM - 5:00 PM | Discussion, Q&A|
+| 3.30 PM - 4:15 PM |  Groq <br> |
+| 4:15 PM - 5:00 PM | Discussion, Q&A|
 
 ## Request Account on AI Testbeds At ALCF
 
