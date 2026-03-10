@@ -75,7 +75,7 @@ messages = [
 
 # Generate response from model
 response = client.chat.completions.create(
-    model="qwen-3-32b",
+    model="gpt-oss-120b",
     messages=messages,
     tools=tools,
 )
@@ -83,7 +83,8 @@ response = client.chat.completions.create(
 content = response.choices[0].message.content
 tool_calls = response.choices[0].message.tool_calls
 
-if content.strip():
+
+if content:
     print("The assistant did not use a tool. Produced following response: ")
     print(content)
 

@@ -1,0 +1,61 @@
+{
+    "compile_jobs": [
+        {
+            "namespace": "job-operator",
+            "id": "wsjob-iq9xqc9bkjjbcaw3vaihrk",
+            "workflow_id": "wflow-iqunytfhqbcb3o6jrgybaui37q",
+            "log_path": "/n1/wsjob/workdir/job-operator/wsjob-iq9xqc9bkjjbcaw3vaihrk",
+            "start_time": "2026-03-10T08:02:42Z",
+            "scheduled_time": "2026-03-10T08:03:02Z",
+            "software_versions": {
+                "appliance-client": "2.9.0",
+                "cbcore": "2.9.0-202512242343-6-e2e12a41",
+                "cluster-server": "3.1.0-202511212135-400-1f941dc2+1f941dc2ab",
+                "job-operator": "3.1.0-202511212135-400-1f941dc2+1f941dc2ab"
+            },
+            "system_versions": {
+                "cer-anl-wse001-cs-sy01": {
+                    "execmode": "WEIGHT_STREAMING"
+                },
+                "cer-anl-wse001-cs-sy02": {
+                    "execmode": "WEIGHT_STREAMING"
+                },
+                "cer-anl-wse002-cs-sy01": {
+                    "execmode": "WEIGHT_STREAMING"
+                },
+                "cer-anl-wse002-cs-sy02": {
+                    "execmode": "WEIGHT_STREAMING"
+                }
+            },
+            "coordinator_ip_port": "10.125.8.223:9000"
+        }
+    ],
+    "execute_jobs": [
+        {
+            "namespace": "job-operator",
+            "id": "wsjob-nkuwdakj4rsugdvvratkwf",
+            "workflow_id": "wflow-hojt6peg7za7lpjl4j7dqvjaz4",
+            "log_path": "/n1/wsjob/workdir/job-operator/wsjob-nkuwdakj4rsugdvvratkwf",
+            "start_time": "2026-03-10T08:33:30Z",
+            "scheduled_time": "2026-03-10T08:33:50Z",
+            "software_versions": {
+                "appliance-client": "2.9.0",
+                "cbcore": "2.9.0-202512242343-6-e2e12a41",
+                "cluster-server": "3.1.0-202511212135-400-1f941dc2+1f941dc2ab",
+                "job-operator": "3.1.0-202511212135-400-1f941dc2+1f941dc2ab"
+            },
+            "system_versions": {
+                "cer-anl-wse002-cs-sy01": {
+                    "execmode": "WEIGHT_STREAMING"
+                }
+            }
+        },
+        {
+            "namespace": "job-operator",
+            "id": "wsjob-hek8v2sj79gkjfsifw8eyp",
+            "workflow_id": "wflow-c2k4rqrnonhhvjzhknxlqrybgu",
+            "log_path": "/n1/wsjob/workdir/job-operator/wsjob-hek8v2sj79gkjfsifw8eyp",
+            "start_time": "2026-03-10T08:38:06Z"
+        }
+    ]
+}

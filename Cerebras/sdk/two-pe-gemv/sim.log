@@ -1,0 +1,91 @@
+@0 GITREV=ef181f818494e34feaf35a7455bafba4fbc4933b, GITCLEAN=1
+@0 Create from elfs
+@0 dimX=11, dimY=3
+@0 Reading ELF file out/generated/default.elf
+@0 Reading ELF file out/generated/coord.elf
+@0 Reading ELF file out/bin/out_1_0.elf
+@0 Reading ELF file out/bin/out_0_0.elf
+@0 Reading ELF file out/east/bin/out_1_0.elf
+@0 Reading ELF file out/east/bin/out_0_0.elf
+@0 Reading ELF file out/west/bin/out_2_0.elf
+@0 Reading ELF file out/west/bin/out_0_0.elf
+@0 Reading ELF file out/west/bin/out_1_0.elf
+@0 Reading ELF file out/generated/MEMCPY_XY_ROUTES.elf
+@0 Invocation key is: sim3F11AD9115C50B777CA0C1AA2F5476C3
+@0 Plan key is: plan0BAF470CCAA99033B8FF8263ABC0ED73
+@0 SimTraceCtf, flags:  wavelets=0 landing=1 inst=1 switch_positions=0 stalls=1
+@0 P0.0 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P1.0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P2.0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P3.0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P4.0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P5.0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P6.0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P7.0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P8.0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P9.0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P10.0 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P0.1 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P1.1 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P2.1 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P3.1 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P4.1 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P5.1 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P6.1 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P7.1 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P8.1 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P9.1 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P10.1 (hwtile) tile trace flag: inst_trace,landing,stalls
+@0 P0.2 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P1.2 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P2.2 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P3.2 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P4.2 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P5.2 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P6.2 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P7.2 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P8.2 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P9.2 (nul) tile trace flag: inst_trace,landing,stalls
+@0 P10.2 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LW0 (iotile) tile trace flag: inst_trace,landing,stalls
+@0 LW1 (iotile) tile trace flag: inst_trace,landing,stalls
+@0 LW2 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LE0 (iotile) tile trace flag: inst_trace,landing,stalls
+@0 LE1 (iotile) tile trace flag: inst_trace,landing,stalls
+@0 LE2 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LN0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LN1 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LN2 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LN3 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LN4 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LN5 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LN6 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LN7 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LN8 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LN9 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LN10 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LS0 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LS1 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LS2 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LS3 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LS4 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LS5 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LS6 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LS7 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LS8 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LS9 (nul) tile trace flag: inst_trace,landing,stalls
+@0 LS10 (nul) tile trace flag: inst_trace,landing,stalls
+@0 Architecture is: FYN
+@0 Simtile is: hwtile
+@0 Sim stats: config-time=0.02, nodes=1, threads=5
+@0 Sim stats: tiles=61, simulated_tiles=17, hwtile=13, iotile=4, nultile=44
+@30206 Request to asynchronously stop simulation
+@30206 Request to asynchronously stop simulation
+@30208 Stopping due to user request
+@30208 26058 cycles since an instruction was executed, 26081 cycles since a wavelet landed
+@30208 Simulation used 1.24 seconds, init-time=0.03, total-time=1.27, cycles=30208, cyc/sec=24386.11, tile-cyc/sec=414563.83, tile-cyc/sec-thread=82912.77
+@30208 CTF Stats: num_stalls_       =      2175806
+@30208 CTF Stats: num_wavelets      =         1007
+@30208 CTF Stats: num_inst_dispatch =         7152
+@30208 CTF Stats: num_inst_pipe     =        14637
+@30208 CTF Stats: num_switch_pos    =            0

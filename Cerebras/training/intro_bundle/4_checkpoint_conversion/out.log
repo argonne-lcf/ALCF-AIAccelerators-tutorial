@@ -1,0 +1,58 @@
+mkdir: cannot create directory ‘hf_ckpts’: File exists
+Fetching 17 files:   0%|          | 0/17 [00:00<?, ?it/s]Downloading 'generation_config.json' to 'hf_ckpts/.cache/huggingface/download/3EVKVggOldJcKSsGjSdoUCN1AyQ=.8cb307df0a39b241d8182e2da0a4d32497408312.incomplete'
+Downloading 'logs/2025-12-29T22-07-23-05-00_ifeval_4d3nAJyFXS9zJBc3QRHhKG.eval' to 'hf_ckpts/.cache/huggingface/download/logs/nYHdB8Jrs4YzwHv2b3mrFv47gfY=.95c9de7c7d83692da6c1268e27bc23a366e834b0769ea56dcde6d14ba2396eb8.incomplete'
+Downloading 'chat_template.jinja' to 'hf_ckpts/.cache/huggingface/download/yIUQ6Jg7XpBWXEkozaEkS2ih05g=.39bd0c9f7fe30aea14eda194fee17703da4a4dbf.incomplete'
+Downloading 'README.md' to 'hf_ckpts/.cache/huggingface/download/Xn7B-BWUGOee2Y6hCZtEhtFu4BE=.88d21c094f1463c61e1ab750d114fdd79b5b8700.incomplete'
+Downloading 'logs/2025-12-29T22-40-31-05-00_gpqa-diamond_mmXT6J94HAaCwAiP4DojJG.eval' to 'hf_ckpts/.cache/huggingface/download/logs/STwfeNbIxXwmEeec7_N6wY6qoOE=.4082e5fc25634798ab3a650434d6ce59a30e97bf9f9c8fd99e4cb736cffb65b8.incomplete'
+Download complete. Moving file to hf_ckpts/generation_config.json
+Download complete. Moving file to hf_ckpts/chat_template.jinja
+Download complete. Moving file to hf_ckpts/README.md
+Downloading 'logs/2025-12-29T22-18-58-05-00_ifeval_GnXDkpuVZndg4DzrKwUuH6.eval' to 'hf_ckpts/.cache/huggingface/download/logs/Sa652KrtnlTuB5p3gw6zCCXz3W8=.197b2a10e137493d14f6ab4a98aca60cd7df35075f090d0758340dc1bb76f371.incomplete'
+Downloading 'logs/2025-12-29T22-23-55-05-00_gpqa-diamond_5hr7uoVJyxAzmeqRtFFJNw.eval' to 'hf_ckpts/.cache/huggingface/download/logs/TV0iseexPvyYPrnP6YPUaysVTqY=.a0f10d02281af7c8c8850bfad5127aca3189c1746834f400e7aabebdea545afb.incomplete'
+Fetching 17 files:  12%|█▏        | 2/17 [00:00<00:00, 17.11it/s]Downloading 'config.json' to 'hf_ckpts/.cache/huggingface/download/8_PA_wEVGiVa2goH2H4KQOQpvVY=.1e133775e4184b49d75c18f917b76a778108f4f4.incomplete'
+Download complete. Moving file to hf_ckpts/config.json
+Downloading 'model-00001-of-00004.safetensors' to 'hf_ckpts/.cache/huggingface/download/IO4xwqmZYzFmxznkwkiNSBwO1H0=.e0a8d21abac1a3b16dfa5337eb7eb254ec114ec1f148bde972dc2d9530993ec7.incomplete'
+Downloading 'model-00003-of-00004.safetensors' to 'hf_ckpts/.cache/huggingface/download/DaGOU-KRMVrY0aYktrsE34tL0Bs=.44e95bd2bdcab957ce59852bf9e742b0b8a3b7b871c4d4f113b46b10fb04ce36.incomplete'
+Downloading 'model-00002-of-00004.safetensors' to 'hf_ckpts/.cache/huggingface/download/t9msAuTjAZjuQnmzGOwTjiptvIU=.1d0fac5317e7f9d366101e900075f12e8d0f92162cefc465b1831ae5a2ab71f0.incomplete'
+Downloading 'model-00004-of-00004.safetensors' to 'hf_ckpts/.cache/huggingface/download/-dFtyT7kcgbTHt1cy9JKqruJCR4=.1d1b8a1d29e76324ace0ccdfc8d66adf455df2cfb350e6eb3b1494340e1462ff.incomplete'
+Download complete. Moving file to hf_ckpts/logs/2025-12-29T22-40-31-05-00_gpqa-diamond_mmXT6J94HAaCwAiP4DojJG.eval
+Download complete. Moving file to hf_ckpts/logs/2025-12-29T22-23-55-05-00_gpqa-diamond_5hr7uoVJyxAzmeqRtFFJNw.eval
+Download complete. Moving file to hf_ckpts/logs/2025-12-29T22-18-58-05-00_ifeval_GnXDkpuVZndg4DzrKwUuH6.eval
+Download complete. Moving file to hf_ckpts/logs/2025-12-29T22-07-23-05-00_ifeval_4d3nAJyFXS9zJBc3QRHhKG.eval
+Fetching 17 files:  35%|███▌      | 6/17 [00:00<00:01,  9.71it/s]Downloading 'special_tokens_map.json' to 'hf_ckpts/.cache/huggingface/download/ahkChHUJFxEmOdq5GDFEmerRzCY=.02ee80b6196926a5ad790a004d9efd6ab1ba6542.incomplete'
+Downloading 'tokenizer.json' to 'hf_ckpts/.cache/huggingface/download/HgM_lKo9sdSCfRtVg7MMFS7EKqo=.e134af98b985517b4f068e3755ae90d4e9cd2d45d328325dc503f1c6b2d06cc7.incomplete'
+Downloading 'model.safetensors.index.json' to 'hf_ckpts/.cache/huggingface/download/yVzAsSxRSINSz-tQbpx-TLpfkLU=.5c64f1e87be95160fabc494eebfa0f7e68064af2.incomplete'
+Downloading 'tokenizer_config.json' to 'hf_ckpts/.cache/huggingface/download/vzaExXFZNBay89bvlQv-ZcI6BTg=.0118c2bb03e7e215c96a89888e8c1552a8aff85c.incomplete'
+Download complete. Moving file to hf_ckpts/special_tokens_map.json
+Download complete. Moving file to hf_ckpts/model.safetensors.index.json
+Download complete. Moving file to hf_ckpts/tokenizer_config.json
+Download complete. Moving file to hf_ckpts/tokenizer.json
+Download complete. Moving file to hf_ckpts/model-00004-of-00004.safetensors
+Fetching 17 files:  35%|███▌      | 6/17 [00:19<00:01,  9.71it/s]Download complete. Moving file to hf_ckpts/model-00003-of-00004.safetensors
+Download complete. Moving file to hf_ckpts/model-00002-of-00004.safetensors
+Download complete. Moving file to hf_ckpts/model-00001-of-00004.safetensors
+Fetching 17 files:  59%|█████▉    | 10/17 [00:28<00:25,  3.66s/it]Fetching 17 files: 100%|██████████| 17/17 [00:28<00:00,  1.68s/it]
+/cra-864/sylviah/training_intro_bundle/4_checkpoint_conversion/hf_ckpts
+mkdir: cannot create directory ‘cs_ckpts’: File exists
+Traceback (most recent call last):
+  File "/cra-864/sylviah/venvs/r2.6/bin/cszoo", line 6, in <module>
+    sys.exit(main())
+             ^^^^^^
+  File "/cra-864/sylviah/training_intro_bundle/modelzoo/src/cerebras/modelzoo/cli/main.py", line 299, in main
+    ModelZooCLI()
+  File "/cra-864/sylviah/training_intro_bundle/modelzoo/src/cerebras/modelzoo/cli/main.py", line 232, in __init__
+    args.func(args)
+  File "/cra-864/sylviah/training_intro_bundle/modelzoo/src/cerebras/modelzoo/tools/convert_checkpoint.py", line 818, in _convert
+    ) = convert_checkpoint_from_file(
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/cra-864/sylviah/training_intro_bundle/modelzoo/src/cerebras/modelzoo/tools/convert_checkpoint.py", line 356, in convert_checkpoint_from_file
+    ) = _select_model_and_config_converter(model, src_fmt, tgt_fmt)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/cra-864/sylviah/training_intro_bundle/modelzoo/src/cerebras/modelzoo/tools/convert_checkpoint.py", line 195, in _select_model_and_config_converter
+    from cerebras.modelzoo.tools.checkpoint_converters.registry import (
+  File "/cra-864/sylviah/training_intro_bundle/modelzoo/src/cerebras/modelzoo/tools/checkpoint_converters/registry.py", line 171, in <module>
+    from cerebras.modelzoo.tools.checkpoint_converters.internal.qwen2 import (  # noqa
+ModuleNotFoundError: No module named 'cerebras.modelzoo.tools.checkpoint_converters.internal'
+mkdir: cannot create directory ‘model_dir’: File exists
+mv: cannot stat 'cs_ckpts/model_*.mdl': No such file or directory
+mv: cannot stat 'cs_ckpts/config_*': No such file or directory

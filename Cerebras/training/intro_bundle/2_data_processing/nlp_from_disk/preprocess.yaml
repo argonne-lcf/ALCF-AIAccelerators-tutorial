@@ -1,0 +1,31 @@
+setup:
+  data:
+    source: "./2_jsonl/" #local dir or HuggingFace dataset name
+    type: "local" #set to "huggingface" to use HuggingFace data
+    split: "train" 
+    cache_dir: "./hf_cache"
+    # other parameters accepted by HuggingFace ``load_dataset`` API...
+
+  mode: "pretraining" #or "finetuning"
+  output_dir: "./3_h5/" 
+  processes: 48 #desired number of CPU cores, set to 0 for default number of cores available
+
+processing:
+  huggingface_tokenizer: "meta-llama/Llama-3.3-70B-Instruct"
+  # TODO: file docs report -- the ":" before hook name was incorrectly a "."
+  read_hook: "cerebras.modelzoo.data_preparation.data_preprocessing.hooks:text_read_hook"
+  read_hook_kwargs:
+    text_key: "text"
+  resume_from_checkpoint: False
+  max_seq_length: 2048
+  read_chunk_size: 10240
+  write_chunk_size: 40960
+  shuffle: False
+  shuffle_seed: 0
+  ftfy_normalizer: NFC
+  use_ftfy: False
+  wikitext_detokenize: False
+
+dataset:
+  use_vsl: False
+  pack_sequences: True

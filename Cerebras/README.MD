@@ -37,7 +37,9 @@ streamed one layer at a time to the CS systems. In addition to the CS systems, t
 CPU nodes known as SwarmX and MemoryX. The MemoryX servers are responsible for holding the layer
 weights and performing weight updates after receiving computed gradients. SwarmX is responsible for
 broadcasting weights from the MemoryX to the CS systems, and reducing computed gradients from the
-CS systems to the MemoryX. This topology enables a completely data parallel mode of training.
+CS systems to the MemoryX. This topology enables a completely data parallel mode of training,
+allowing for dead-simple linear scaling when leveraging additional systems without requiring any
+of the ML engineering expertise required for scaling up GPU training workloads.
 
 <img src="images/weight-streaming.png" alt="WS" width="600"/>
 

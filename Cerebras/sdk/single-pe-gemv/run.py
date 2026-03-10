@@ -63,8 +63,8 @@ runner.memcpy_h2d(x_symbol, x, 0, 0, 1, 1, N, streaming=False,
 runner.memcpy_h2d(b_symbol, b, 0, 0, 1, 1, M, streaming=False,
   order=MemcpyOrder.ROW_MAJOR, data_type=MemcpyDataType.MEMCPY_32BIT, nonblock=False)
 
-# Launch the init_and_compute function on device
-runner.launch('init_and_compute', nonblock=False)
+# Launch the compute_gemv function on device
+runner.launch('compute_gemv', nonblock=False)
 
 # Copy y back from device
 y_result = np.zeros([M], dtype=np.float32)

@@ -1,0 +1,46 @@
+{
+    "tasks": [
+        {
+            "taskType": "WRK",
+            "taskMap": [
+                {
+                    "taskId": {
+                        "wseIds": [
+                            0
+                        ]
+                    },
+                    "addressBook": {
+                        "taskIpPort": "10.125.9.45:9000",
+                        "taskDebugAddress": "100.64.8.190:9002",
+                        "taskNodeName": "cer-anl-net001-wk-sr04"
+                    }
+                }
+            ],
+            "resourceInfo": {
+                "memoryBytes": "71940702208",
+                "cpuMillicore": "24000"
+            },
+            "taskCommand": "python /cbcore/py_root/cerebras/sdk/appliance/sdk_appliance_server.py"
+        },
+        {
+            "taskType": "WSE",
+            "taskMap": [
+                {
+                    "taskId": {
+                        "wseIds": [
+                            0
+                        ]
+                    },
+                    "addressBook": {
+                        "wseIp": "10.254.2.68:9000",
+                        "taskIpPort": "10.254.2.68:9000",
+                        "taskNodeName": "cer-anl-wse002-cs-sy01",
+                        "wsePreferredPowerProfiles": [
+                            "none"
+                        ]
+                    }
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+#############################################
+## Pretraining Tutorial Train Data Config ##
+#############################################
+setup:
+    data:
+        type: "huggingface"
+        source: "karpathy/tiny_shakespeare"
+        split: "train"
+    mode: "pretraining"
+    output_dir: "./shakespeare_h5/"
+    processes: 32
+
+processing:
+    huggingface_tokenizer: "NousResearch/Meta-Llama-3-8B-Alternate-Tokenizer"
+    write_in_batch: True
+    read_hook: "cerebras.modelzoo.data_preparation.data_preprocessing.hooks:text_read_hook"
+    read_hook_kwargs:
+        text_key: "text"
+    use_ftfy: True
+
+dataset:
+    use_vsl: False
+    pack_sequences: True
