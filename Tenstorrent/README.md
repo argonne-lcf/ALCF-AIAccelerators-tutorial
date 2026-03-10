@@ -1,5 +1,4 @@
-# Accessing Tenstorrent on ALCF systems
-https://github.com/argonne-lcf/user-guides/tree/feature/Tenstorrent_docs/docs/ai-testbed/tenstorrent
+# Accessing Tenstorrent on ALCF systems. 
 
 # Tensotrrent Cloud Access 
 
