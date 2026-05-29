@@ -2,34 +2,29 @@
 
 Scientific applications are increasingly adopting Artificial Intelligence (AI) techniques to advance science. There are specialized hardware accelerators designed and built to run AI applications efficiently. With a wide diversity in the hardware architectures and software stacks of these systems, it is challenging to understand the differences between these accelerators, their capabilities, programming approaches, and how they perform, particularly for scientific applications. 
 
-In this tutorial, we will cover an overview of the AI accelerators landscape focusing on Cerebras, SambaNova, and Groq along with architectural features and details of their software stacks. We will have hands-on exercises to help attendees understand how to program these systems by learning how to refactor codes, compile, run and evaluate the models on these systems. The tutorial will provide the attendees with an understanding of the key capabilities of these AI accelerators and their performance implications for scientific applications.
+In this tutorial, we will cover an overview of the AI accelerators landscape focusing on Cerebras, SambaNova, and Tenstorrent along with architectural features and details of their software stacks. We will have hands-on exercises to help attendees understand how to program these systems by learning how to refactor codes, compile, run and evaluate the models on these systems. The tutorial will provide the attendees with an understanding of the key capabilities of these AI accelerators and their performance implications for scientific applications.
 
 
+## Tutorial at ISC 2026, Hamburg, Germany
 
-## Tutorial at NAIRR Annual Meeting, 2026
-
-| Date      | 10 March 2026                   |
+| Date      | 22 June 2026                  |
 |-----------|--------------------------------|
-| Time      |  9:00 AM - 5.00 PM local time  |
+| Time      |  2:00 PM - 6.O0 PM (Europe/Berlin time) |
 
 ## Speakers: 
 
-Murali Emani (ANL), Varuni Sastry (ANL), Sylvia Howland (Cerebras), Tim Clark (SambaNova)
+Murali Emani (ANL), Varuni Sastry (ANL), Sylvia Howland (Cerebras), Matthew Povey (SambaNova)
 
 ## Agenda
 
-| Time (EST) | Topic/Speaker |
-|------------|---------------|
-| 9:00 AM - 9:15 AM | Welcome and Overview of the ALCF AI Testbed  <br> |
-| 9:15 AM - 10:30 AM | SambaNova  <br>| 
-| 10:30 AM - 11:00 AM | Coffee Break <br> |
-| 11.00 AM - 12:30 PM |Cerebras  <br>|
-| 12:30 PM - 1:30 PM | Lunch | 
-| 1.30 PM - 2:00 PM | Discussion, Q&A <br> |
-| 2.00 PM - 3:00 PM | Tenstorrent <br> |
-| 3:00 PM - 3:30 PM | Coffee Break <br> |
-| 3.30 PM - 4:15 PM |  Groq <br> |
-| 4:15 PM - 5:00 PM | Discussion, Q&A|
+| Time                  | Topic                                               | Duration (minutes) | Speaker                |
+|-----------------------|-----------------------------------------------------|--------------------|------------------------|
+| 2:00 PM - 2:15 AM     | Welcome and Overview of the ALCF AI Testbed         | 15                 | Murali (ANL)           |
+| 2:15 PM - 3:15 PM    | Cerebras [[AI Slides](https://github.com/argonne-lcf/AIaccelerators-ISC25-tutorial/blob/main/Cerebras/ANL_ISC_Tutorial_Company_and_AI_Overview.pdf), [SDK Slides](https://github.com/argonne-lcf/AIaccelerators-ISC25-tutorial/blob/main/Cerebras/ANL_ISC_Tutorial_SDK.pdf)]              | 60                 | Sylvia (Cerebras)    |
+| 3:15 PM - 4:00 PM   | Sambanova [[Slides](https://github.com/argonne-lcf/AIaccelerators-ISC25-tutorial/blob/main/Sambanova/ISC25_SambaNova.pdf)]             | 45                 | Matthew (SambaNova)      |
+| 04:00 PM - 04:30 PM   | Coffee Break                                        | 30                 |                        |
+| 04:30 PM - 05:15 PM   | Tenstorrent [[Slides](https://github.com/argonne-lcf/AIaccelerators-ISC25-tutorial/blob/main/Sambanova/ISC25_SambaNova.pdf)]                    | 45                 | TBD  |
+| 05:15 PM - 06:00 PM    | Hands-on and Q&A                                 | 45                  | Varuni, Murali (ANL)         |
 
 ## Request Account on AI Testbeds At ALCF
 
@@ -48,7 +43,7 @@ apply for [Director’s Discretionary Allocation Program](https://www.alcf.anl.g
 ## Useful Links 
 
 
-* [Github Tutorial Repository](https://github.com/argonne-lcf/AIaccelerators-SCA26-tutorial)
+* [Github Tutorial Repository](https://github.com/argonne-lcf/AIaccelerators-ISC26-tutorial)
 * [Overview of AI Testbeds at ALCF](https://www.alcf.anl.gov/alcf-ai-testbed)
 * [ALCF AI Testbed Documentation](https://docs.alcf.anl.gov/ai-testbed/)
 * [Director’s Discretionary Allocation Program](https://www.alcf.anl.gov/science/directors-discretionary-allocation-program)
