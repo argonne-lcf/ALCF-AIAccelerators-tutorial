@@ -13,7 +13,7 @@ In this tutorial, we will cover an overview of the AI accelerators landscape foc
 
 ## Speakers: 
 
-Murali Emani (ANL), Varuni Sastry (ANL), Sylvia Howland (Cerebras), Matthew Povey (SambaNova)
+Murali Emani (ANL), Varuni Sastry (ANL), Sylvia Howland (Cerebras), Matthew Povey (SambaNova), Moritz Thüning (Tenstorrent) 
 
 ## Agenda
 
@@ -23,7 +23,7 @@ Murali Emani (ANL), Varuni Sastry (ANL), Sylvia Howland (Cerebras), Matthew Pove
 | 2:15 PM - 3:15 PM    | Cerebras [[AI Slides](https://github.com/argonne-lcf/AIaccelerators-ISC25-tutorial/blob/main/Cerebras/ANL_ISC_Tutorial_Company_and_AI_Overview.pdf), [SDK Slides](https://github.com/argonne-lcf/AIaccelerators-ISC25-tutorial/blob/main/Cerebras/ANL_ISC_Tutorial_SDK.pdf)]              | 60                 | Sylvia (Cerebras)    |
 | 3:15 PM - 4:00 PM   | Sambanova [[Slides](https://github.com/argonne-lcf/AIaccelerators-ISC25-tutorial/blob/main/Sambanova/ISC25_SambaNova.pdf)]             | 45                 | Matthew (SambaNova)      |
 | 04:00 PM - 04:30 PM   | Coffee Break                                        | 30                 |                        |
-| 04:30 PM - 05:15 PM   | Tenstorrent [[Slides](https://github.com/argonne-lcf/AIaccelerators-ISC25-tutorial/blob/main/Sambanova/ISC25_SambaNova.pdf)]                    | 45                 | TBD  |
+| 04:30 PM - 05:15 PM   | Tenstorrent [[Slides]()]                    | 45                 | Moritz (Tenstorrent)  |
 | 05:15 PM - 06:00 PM    | Hands-on and Q&A                                 | 45                  | Varuni, Murali (ANL)         |
 
 ## Request Account on AI Testbeds At ALCF
