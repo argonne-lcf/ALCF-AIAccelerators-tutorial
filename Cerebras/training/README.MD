@@ -1,6 +1,6 @@
 # Training on the Cerebras Wafer-Scale Cluster
 
-To access Cerebras CS-3 deployed at ALCF, please submit a DD allocation request. Once it is approved, you may use the following steps. 
+To access Cerebras CS-3 deployed at ALCF, please submit a DD allocation request (https://www.alcf.anl.gov/science/directors-discretionary-allocation-program). Once it is approved, you may use the following steps. 
 
 ## Connecting to CS-3
 Users connect via SSH to the login node, cerebras.alcf.anl.gov and then ssh to one of two user nodes with naming convention `cer-usn-0X`.
