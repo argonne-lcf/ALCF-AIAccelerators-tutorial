@@ -3,7 +3,7 @@
 To access Cerebras CS-3 deployed at ALCF, please submit a DD allocation request. Once it is approved, you may use the following steps. 
 
 ## Connecting to CS-3
-Users connect via SSH to the login node, cerebras.alcf.anl.gov and then ssh to one of four user nodes with naming convention `cer-usn-0X`.
+Users connect via SSH to the login node, cerebras.alcf.anl.gov and then ssh to one of two user nodes with naming convention `cer-usn-0X`.
 
 The trees /home, /projects, and /software are shared across the login nodes and user nodes, the relevant cluster infrastructure nodes, and all ALCF AI testbed platforms.
 
@@ -19,10 +19,8 @@ Then ssh to a cerebras user node:
 
 ```bash
 ssh cer-usn-01
-ssh cer-usn-02
-ssh cer-usn-03
 or
-ssh cer-usn-04
+ssh cer-usn-02
 ```
 
 ## Environment and Cerebras Modelzoo setup
