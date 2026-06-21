@@ -6,6 +6,7 @@
 # `source ../../venvs/r2.10/bin/activate`.
 
 # Needed to access the internet from the ALCF cluster.
+# Not needed if running elsewhere.
 export HTTPS_PROXY='http://proxy.alcf.anl.gov:3128'                                                                                      
 export HTTP_PROXY='http://proxy.alcf.anl.gov:3128'
 
@@ -18,9 +19,6 @@ pip install --upgrade pip
 
 # Modelzoo setup
 git clone --branch Release_2.10.0 https://github.com/Cerebras/modelzoo.git ../modelzoo
-# PEFT pin is only necessary for release 2.6-2.8
-# printf "\npeft==0.17.1" >> ../modelzoo/requirements.txt
-printf "\npsutil==7.1.3" >> ../modelzoo/requirements.txt
 
 pip install -r ../modelzoo/requirements.txt
 pip install -e ../modelzoo/
