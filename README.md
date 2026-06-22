@@ -21,7 +21,7 @@ Murali Emani (ANL), Varuni Sastry (ANL), Sylvia Howland (Cerebras), Matthew Pove
 |-----------------------|-----------------------------------------------------|--------------------|------------------------|
 | 2:00 PM - 2:15 AM     | Welcome and Overview of the ALCF AI Testbed         | 15                 | Murali (ANL)           |
 | 2:15 PM - 3:15 PM    | Cerebras [[AI Slides](https://github.com/argonne-lcf/AIaccelerators-ISC25-tutorial/blob/main/Cerebras/ANL_ISC_Tutorial_Company_and_AI_Overview.pdf), [SDK Slides](https://github.com/argonne-lcf/AIaccelerators-ISC25-tutorial/blob/main/Cerebras/ANL_ISC_Tutorial_SDK.pdf)]              | 60                 | Sylvia (Cerebras)    |
-| 3:15 PM - 4:00 PM   | Sambanova  [[Slides](https://github.com/argonne-lcf/ALCF-AIAccelerators-tutorial/blob/ISC26/Sambanova/ISC2026-SN.pdf)]           | 45                 | Matthew (SambaNova)      |
+| 3:15 PM - 4:00 PM   | SambaNova  [[Slides](https://github.com/argonne-lcf/ALCF-AIAccelerators-tutorial/blob/ISC26/Sambanova/ISC2026-SN.pdf)]           | 45                 | Matthew (SambaNova)      |
 | 04:00 PM - 04:30 PM   | Coffee Break                                        | 30                 |                        |
 | 04:30 PM - 05:15 PM   | Tenstorrent                  | 45                 | Moritz (Tenstorrent)  |
 | 05:15 PM - 06:00 PM    | Hands-on and Q&A                                 | 45                  | Varuni, Murali (ANL)         |
