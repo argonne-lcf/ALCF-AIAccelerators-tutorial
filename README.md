@@ -31,12 +31,12 @@ Murali Emani (ANL), Varuni Sastry (ANL), Sylvia Howland (Cerebras), Matthew Pove
 
 ### Director’s Discretionary Allocation Program
 
-To gain access to AI Testbeds at ALCF <!-- after tutorial allocation expires--> 
+* To gain access to AI Testbeds at ALCF,  <!-- after tutorial allocation expires--> 
 apply for [Director’s Discretionary Allocation Program](https://www.alcf.anl.gov/science/directors-discretionary-allocation-program) that provides “start up” awards to researchers working to achieve computational readiness for for a major allocation award.
 
-* Request an [ALCF Computer User Account](https://accounts.alcf.anl.gov/accountRequest) if you do not currently have one
-* If you have an ALCF Account that is currently inactive, submit an [account reactivation](https://accounts.alcf.anl.gov/accountReactivate) request*.
-* If you have an active ALCF account, click [Join Project](https://accounts.alcf.anl.gov/joinProject) to submit a membership request to your project, if approved.
+* Once the DD allocation request is approvied, request an [ALCF Computer User Account](https://accounts.alcf.anl.gov/accountRequest) if you do not currently have one. 
+  If you have an ALCF Account that is currently inactive, submit an [account reactivation](https://accounts.alcf.anl.gov/accountReactivate) request.
+  If you have an active ALCF account, click [Join Project](https://accounts.alcf.anl.gov/joinProject) to submit a membership request to your project, if approved.
 
 
 
