@@ -5,33 +5,37 @@ Scientific applications are increasingly adopting Artificial Intelligence (AI) t
 In this tutorial, we will cover an overview of the AI accelerators landscape focusing on Cerebras, SambaNova, and Tenstorrent along with architectural features and details of their software stacks. We will have hands-on exercises to help attendees understand how to program these systems by learning how to refactor codes, compile, run and evaluate the models on these systems. The tutorial will provide the attendees with an understanding of the key capabilities of these AI accelerators and their performance implications for scientific applications.
 
 
-## Tutorial at ISC 2026, Hamburg, Germany
+## Tutorial at SC 2026, Chicago, USA
 
-| Date      | 22 June 2026                  |
+| Date      | 16 November 2026                  |
 |-----------|--------------------------------|
-| Time      |  2:00 PM - 6.O0 PM (Europe/Berlin time) |
+| Time      |  8:30 AM - 5.00 PM (Central Time) |
 
 ## Speakers: 
 
-Murali Emani (ANL), Varuni Sastry (ANL), Sylvia Howland (Cerebras), Matthew Povey (SambaNova), Moritz Thüning (Tenstorrent) 
+Murali Emani (ANL), Varuni Sastry (ANL), Sylvia Howland (Cerebras), Tim Clarke (SambaNova), Moritz Thüning (Tenstorrent) 
 
 ## Agenda
 
-| Time                  | Topic                                               | Duration (minutes) | Speaker                |
-|-----------------------|-----------------------------------------------------|--------------------|------------------------|
-| 2:00 PM - 2:15 AM     | Welcome and Overview of the ALCF AI Testbed         | 15                 | Murali (ANL)           |
-| 2:15 PM - 3:15 PM    | Cerebras [[AI Slides](https://github.com/argonne-lcf/AIaccelerators-ISC25-tutorial/blob/main/Cerebras/ANL_ISC_Tutorial_Company_and_AI_Overview.pdf), [SDK Slides](https://github.com/argonne-lcf/AIaccelerators-ISC25-tutorial/blob/main/Cerebras/ANL_ISC_Tutorial_SDK.pdf)]              | 60                 | Sylvia (Cerebras)    |
-| 3:15 PM - 4:00 PM   | SambaNova  [[Slides](https://github.com/argonne-lcf/ALCF-AIAccelerators-tutorial/blob/ISC26/Sambanova/ISC2026-SN.pdf)]           | 45                 | Matthew (SambaNova)      |
-| 04:00 PM - 04:30 PM   | Coffee Break                                        | 30                 |                        |
-| 04:30 PM - 05:15 PM   | Tenstorrent                  | 45                 | Moritz (Tenstorrent)  |
-| 05:15 PM - 06:00 PM    | Hands-on and Q&A                                 | 45                  | Varuni, Murali (ANL)         |
+| Time                  | Topic                                              |  Speaker                |
+|-----------------------|------------------------------------------------------| ----------------------|
+| 8:30 AM - 8:45 AM     | Welcome and Overview of the ALCF AI Testbed         | Murali           |
+| 8:45 AM - 10:00 AM    | Cerebras           |  Sylvia    |
+| 10:00 AM - 10:30 PM   | Coffee Break                                        |     
+| 10:30 AM - 11:30 AM   | SambaNova     |   Tim      |
+| 11:30 AM - 12:00 PM   | Hands-on     |  Varuni, Murali     |      
+| 12:00 PM - 01:30 PM   | Lunch Break                                        |                   |
+| 01:30 PM - 02:30 PM   | Tenstorrent                  | Moritz  |
+| 02:30 PM - 03:00 PM   | Hands-on     | Varuni, Murali      |
+| 03:00 PM - 03:30 PM   | Coffee Break                                        |   
+| 03:30 PM - 05:00 PM   | Hands-on                                |  Varuni, Murali        |
 
 ## Request Account on AI Testbeds At ALCF
 
 
 ### Director’s Discretionary Allocation Program
 
-* To gain access to AI Testbeds at ALCF,  <!-- after tutorial allocation expires--> 
+* To gain access to AI Testbed at ALCF,  <!-- after tutorial allocation expires--> 
 apply for [Director’s Discretionary Allocation Program](https://www.alcf.anl.gov/science/directors-discretionary-allocation-program) that provides “start up” awards to researchers working to achieve computational readiness for for a major allocation award.
 
 * Once the DD allocation request is approvied, request an [ALCF Computer User Account](https://accounts.alcf.anl.gov/accountRequest) if you do not currently have one. 
@@ -43,7 +47,7 @@ apply for [Director’s Discretionary Allocation Program](https://www.alcf.anl.g
 ## Useful Links 
 
 
-* [Github Tutorial Repository](https://github.com/argonne-lcf/AIaccelerators-ISC26-tutorial)
+* [Github Tutorial Repository](https://github.com/argonne-lcf/ALCF-AIAccelerators-tutorial)
 * [Overview of AI Testbeds at ALCF](https://www.alcf.anl.gov/alcf-ai-testbed)
 * [ALCF AI Testbed Documentation](https://docs.alcf.anl.gov/ai-testbed/)
 * [Director’s Discretionary Allocation Program](https://www.alcf.anl.gov/science/directors-discretionary-allocation-program)
