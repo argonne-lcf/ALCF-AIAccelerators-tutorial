@@ -13,7 +13,7 @@ In this tutorial, we will cover an overview of the AI accelerators landscape foc
 
 ## Speakers: 
 
-Murali Emani (ANL), Varuni Sastry (ANL), Sylvia Howland (Cerebras), Tim Clarke (SambaNova), Moritz Thüning (Tenstorrent) 
+Murali Emani (ANL), Varuni Sastry (ANL), Sylvia Howland (Cerebras), Tim Clarke (SambaNova), Moritz Thüning (Tenstorrent), TBD (Rebellions), TBD (d-Matrix) 
 
 ## Agenda
 
@@ -22,13 +22,13 @@ Murali Emani (ANL), Varuni Sastry (ANL), Sylvia Howland (Cerebras), Tim Clarke (
 | 8:30 AM - 8:45 AM     | Welcome and Overview of the ALCF AI Testbed         | Murali           |
 | 8:45 AM - 10:00 AM    | Cerebras           |  Sylvia    |
 | 10:00 AM - 10:30 PM   | Coffee Break                                        |     
-| 10:30 AM - 11:30 AM   | SambaNova     |   Tim      |
-| 11:30 AM - 12:00 PM   | Hands-on     |  Varuni, Murali     |      
+| 10:30 AM - 11:15 AM   | SambaNova     |   Tim      |
+| 11:15 AM - 12:00 PM   | Tenstorrent   |  Moritz    |      
 | 12:00 PM - 01:30 PM   | Lunch Break                                        |                   |
-| 01:30 PM - 02:30 PM   | Tenstorrent                  | Moritz  |
-| 02:30 PM - 03:00 PM   | Hands-on     | Varuni, Murali      |
+| 01:30 PM - 02:15 PM   | Rebellions                  | TBD  |
+| 02:15 PM - 03:00 PM   | d-Matrix                  | TBD  |
 | 03:00 PM - 03:30 PM   | Coffee Break                                        |   
-| 03:30 PM - 05:00 PM   | Hands-on                                |  Varuni, Murali        |
+| 03:30 PM - 05:00 PM   | Discussion and Hands-on                                |  Varuni, Murali        |
 
 ## Request Account on AI Testbeds At ALCF
 
