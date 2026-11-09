@@ -25,8 +25,8 @@ Murali Emani (ANL), Varuni Sastry (ANL), Sylvia Howland (Cerebras), Tim Clarke (
 | 10:30 AM - 11:15 AM   | SambaNova     |   Tim      |
 | 11:15 AM - 12:00 PM   | Discussion and Hands-on     |   Varuni, Murali      |      
 | 12:00 PM - 01:30 PM   | Lunch Break                                        |                   |
-| 01:30 PM - 02:15 PM   | Rebellions                  | TBD  |
-| 02:15 PM - 03:00 PM   | Tenstorrent                 | Moritz  |
+| 01:30 PM - 02:15 PM   | Tenstorrent                 | Moritz  |
+| 02:15 PM - 03:00 PM   | Rebellions                  | TBD  |
 | 03:00 PM - 03:30 PM   | Coffee Break              |   
 | 03:30 PM - 04:15 PM   | d-Matrix            | Satyam and Saliya |
 | 04:15 PM - 05:00 PM   | Discussion and Hands-on       |  Varuni, Murali        |
