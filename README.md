@@ -2,7 +2,7 @@
 
 Scientific applications are increasingly adopting Artificial Intelligence (AI) techniques to advance science. There are specialized hardware accelerators designed and built to run AI applications efficiently. With a wide diversity in the hardware architectures and software stacks of these systems, it is challenging to understand the differences between these accelerators, their capabilities, programming approaches, and how they perform, particularly for scientific applications. 
 
-In this tutorial, we will cover an overview of the AI accelerators landscape focusing on Cerebras, SambaNova, and Tenstorrent along with architectural features and details of their software stacks. We will have hands-on exercises to help attendees understand how to program these systems by learning how to refactor codes, compile, run and evaluate the models on these systems. The tutorial will provide the attendees with an understanding of the key capabilities of these AI accelerators and their performance implications for scientific applications.
+In this tutorial, we will cover an overview of the AI accelerators landscape focusing on Cerebras, SambaNova, and Tenstorrent deployed at ALCF AI Testbed and Rebellions and d-Matrix systems with architectural features and details of their software stacks. We will have hands-on exercises to help attendees understand how to program these systems by learning how to refactor codes, compile, run and evaluate the models on these systems. The tutorial will provide the attendees with an understanding of the key capabilities of these AI accelerators and their performance implications for scientific applications.
 
 
 ## Tutorial at SC 2026, Chicago, USA
@@ -13,7 +13,12 @@ In this tutorial, we will cover an overview of the AI accelerators landscape foc
 
 ## Speakers: 
 
-Murali Emani (ANL), Varuni Sastry (ANL), Sylvia Howland (Cerebras), Tim Clarke (SambaNova), Moritz Thüning (Tenstorrent), TBD (Rebellions), Satyam Srivastava and Saliya Ekanayake (d-Matrix) 
+- Murali Emani (ANL), Varuni Sastry (ANL)
+-  Sylvia Howland (Cerebras)
+-  Tim Clarke (SambaNova)
+- Moritz Thüning (Tenstorrent)
+- TBD (Rebellions)
+- Satyam Srivastava and Saliya Ekanayake (d-Matrix) 
 
 ## Agenda
 
@@ -21,17 +26,17 @@ Murali Emani (ANL), Varuni Sastry (ANL), Sylvia Howland (Cerebras), Tim Clarke (
 |-----------------------|------------------------------------------------------| ----------------------|
 | 8:30 AM - 8:45 AM     | Welcome and Overview of the ALCF AI Testbed         | Murali           |
 | 8:45 AM - 10:00 AM    | Cerebras           |  Sylvia    |
-| 10:00 AM - 10:30 PM   | Coffee Break                                        |     
+| 10:00 AM - 10:30 PM   | -- Coffee Break  --                                       |     
 | 10:30 AM - 11:15 AM   | SambaNova     |   Tim      |
 | 11:15 AM - 12:00 PM   | Discussion and Hands-on     |   Varuni, Murali      |      
-| 12:00 PM - 01:30 PM   | Lunch Break                                        |                   |
+| 12:00 PM - 01:30 PM   | -- Lunch Break    --                                    |                   |
 | 01:30 PM - 02:15 PM   | Tenstorrent                 | Moritz  |
 | 02:15 PM - 03:00 PM   | Rebellions                  | TBD  |
-| 03:00 PM - 03:30 PM   | Coffee Break              |   
+| 03:00 PM - 03:30 PM   | -- Coffee Break  --            |   
 | 03:30 PM - 04:15 PM   | d-Matrix            | Satyam and Saliya |
 | 04:15 PM - 05:00 PM   | Discussion and Hands-on       |  Varuni, Murali        |
 
-## Request Account on AI Testbeds At ALCF
+## Request Account on AI Testbed At ALCF
 
 
 ### Director’s Discretionary Allocation Program
