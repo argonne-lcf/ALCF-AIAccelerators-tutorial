@@ -1,6 +1,6 @@
 # Programming Novel AI Accelerators for Scientific Computing
 
-Scientific applications are increasingly adopting Artificial Intelligence (AI) techniques to advance science. There are specialized hardware accelerators designed and built to run AI applications efficiently. With a wide diversity in the hardware architectures and software stacks of these systems, it is challenging to understand the differences between these accelerators, their capabilities, programming approaches, and how they perform, particularly for scientific applications. 
+Scientific applications are increasingly adopting Artificial Intelligence (AI) techniques to advance science. There are specialized hardware accelerators designed and built to run AI applications efficiently. With a wide diversity in the hardware architectures and software stacks of these systems, it is challenging to understand the differences between these accelerators, their capabilities, programming approaches, and how they perform, particularly for scientific applications. The [ALCF AI Testbed](https://www.alcf.anl.gov/alcf-ai-testbed) aims to help evaluate the usability and performance of machine learning-based high-performance computing applications running on these accelerators. The goal is to better understand how to integrate with existing and upcoming supercomputers at the facility to accelerate science insights.
 
 In this tutorial, we will cover an overview of the AI accelerators landscape focusing on Cerebras, SambaNova, and Tenstorrent deployed at ALCF AI Testbed and Rebellions and d-Matrix systems with architectural features and details of their software stacks. We will have hands-on exercises to help attendees understand how to program these systems by learning how to refactor codes, compile, run and evaluate the models on these systems. The tutorial will provide the attendees with an understanding of the key capabilities of these AI accelerators and their performance implications for scientific applications.
 
@@ -17,7 +17,7 @@ In this tutorial, we will cover an overview of the AI accelerators landscape foc
 -  Sylvia Howland (Cerebras)
 -  Tim Clarke (SambaNova)
 - Moritz Thüning (Tenstorrent)
-- Taejoon Kong, (Rebellions)
+- Taejoon Kong (Rebellions)
 - Satyam Srivastava and Saliya Ekanayake (d-Matrix) 
 
 ## Agenda
