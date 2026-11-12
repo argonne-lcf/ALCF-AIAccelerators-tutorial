@@ -17,7 +17,7 @@ In this tutorial, we will cover an overview of the AI accelerators landscape foc
 -  Sylvia Howland (Cerebras)
 -  Tim Clarke (SambaNova)
 - Moritz Thüning (Tenstorrent)
-- TBD (Rebellions)
+- Taejoon Kong, (Rebellions)
 - Satyam Srivastava and Saliya Ekanayake (d-Matrix) 
 
 ## Agenda
@@ -31,9 +31,9 @@ In this tutorial, we will cover an overview of the AI accelerators landscape foc
 | 11:15 AM - 12:00 PM   | Discussion and Hands-on     |   Varuni, Murali      |      
 | 12:00 PM - 01:30 PM   | -- Lunch Break    --                                    |                   |
 | 01:30 PM - 02:15 PM   | Tenstorrent                 | Moritz  |
-| 02:15 PM - 03:00 PM   | Rebellions                  | TBD  |
+| 02:15 PM - 03:00 PM   | Rebellions                  | Taejoon  |
 | 03:00 PM - 03:30 PM   | -- Coffee Break  --            |   
-| 03:30 PM - 04:15 PM   | d-Matrix            | Satyam and Saliya |
+| 03:30 PM - 04:15 PM   | d-Matrix            | Satyam, Saliya |
 | 04:15 PM - 05:00 PM   | Discussion and Hands-on       |  Varuni, Murali        |
 
 ## Request Account on AI Testbed At ALCF
