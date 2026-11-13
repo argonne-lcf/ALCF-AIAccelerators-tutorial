@@ -1,0 +1,109 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="620" viewBox="0 0 680 620" role="img">
+  <title>Efficiency protocols decision tree</title>
+  <desc>A question gets DDJA. A task that is repetitive and needs no judgment gets a script offer for parallelism and minimum run time. A repetitive task needing judgment that an on-prem model could solve gets an LLM harness offer for time and token efficiency, verifiability and metrics. If no on-prem model fits, handle directly with caution and suggest a smaller initial sample run.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M2 1L8 5L2 9" fill="none" stroke="#73726c" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+    </marker>
+  </defs>
+  <style>
+    text { font-family: "Helvetica Neue", Helvetica, Arial, sans-serif; }
+    .th { font-size: 14px; font-weight: 500; fill: #1f1f1d; }
+    .ts { font-size: 12px; fill: #3d3d3a; }
+    .lbl { font-size: 12px; fill: #3d3d3a; }
+    .arr { fill: none; stroke: #73726c; stroke-width: 1; }
+    .blue rect { fill: #E6F1FB; stroke: #185FA5; }
+    .blue .th { fill: #0C447C; }
+    .blue .ts { fill: #185FA5; }
+    .teal rect { fill: #E1F5EE; stroke: #0F6E56; }
+    .teal .th { fill: #085041; }
+    .teal .ts { fill: #0F6E56; }
+    .amber rect { fill: #FAEEDA; stroke: #854F0B; }
+    .amber .th { fill: #633806; }
+    .amber .ts { fill: #854F0B; }
+    .gray rect { fill: #F1EFE8; stroke: #5F5E5A; }
+    .gray .th { fill: #444441; }
+    .gray .ts { fill: #5F5E5A; }
+    .gray .caution { fill: #A32D2D; }
+    .node rect { stroke-width: 0.5; }
+  </style>
+
+  <g class="blue">
+    <rect x="220" y="30" width="240" height="56" rx="8"/>
+    <text class="th" x="340" y="51" text-anchor="middle" dominant-baseline="central">Question or task?</text>
+    <text class="ts" x="340" y="70" text-anchor="middle" dominant-baseline="central">What type of request is this?</text>
+  </g>
+
+  <line x1="280" y1="88" x2="130" y2="136" class="arr" marker-end="url(#arrow)"/>
+  <text class="lbl" x="205" y="112" text-anchor="end">Question</text>
+  <line x1="440" y1="88" x2="520" y2="136" class="arr" marker-end="url(#arrow)"/>
+  <text class="lbl" x="492" y="112" text-anchor="start">Task</text>
+
+  <g class="teal">
+    <rect x="20" y="140" width="300" height="56" rx="8"/>
+    <text class="th" x="170" y="161" text-anchor="middle" dominant-baseline="central">DDJA</text>
+    <text class="ts" x="170" y="180" text-anchor="middle" dominant-baseline="central">Lead with inaction - Don't Do, Just Answer</text>
+  </g>
+
+  <g class="blue">
+    <rect x="400" y="140" width="240" height="56" rx="8"/>
+    <text class="th" x="520" y="161" text-anchor="middle" dominant-baseline="central">Repetitive work?</text>
+    <text class="ts" x="520" y="180" text-anchor="middle" dominant-baseline="central">Same action across N items</text>
+  </g>
+
+  <line x1="450" y1="198" x2="375" y2="258" class="arr" marker-end="url(#arrow)"/>
+  <text class="lbl" x="405" y="222" text-anchor="end">Yes</text>
+  <line x1="560" y1="198" x2="580" y2="258" class="arr" marker-end="url(#arrow)"/>
+  <text class="lbl" x="552" y="230" text-anchor="end">No</text>
+
+  <g class="blue">
+    <rect x="260" y="260" width="190" height="56" rx="8"/>
+    <text class="th" x="355" y="281" text-anchor="middle" dominant-baseline="central">Judgment needed?</text>
+    <text class="ts" x="355" y="300" text-anchor="middle" dominant-baseline="central">Per item, in the loop</text>
+  </g>
+
+  <g class="gray">
+    <rect x="500" y="260" width="150" height="56" rx="8"/>
+    <text class="th" x="575" y="281" text-anchor="middle" dominant-baseline="central">Handle directly</text>
+    <text class="ts" x="575" y="300" text-anchor="middle" dominant-baseline="central">No script needed</text>
+  </g>
+
+  <line x1="320" y1="318" x2="190" y2="378" class="arr" marker-end="url(#arrow)"/>
+  <text class="lbl" x="245" y="345" text-anchor="end">No</text>
+  <line x1="400" y1="318" x2="500" y2="378" class="arr" marker-end="url(#arrow)"/>
+  <text class="lbl" x="455" y="344" text-anchor="start">Yes</text>
+
+  <g class="amber">
+    <rect x="20" y="380" width="250" height="66" rx="8"/>
+    <text class="th" x="145" y="400" text-anchor="middle" dominant-baseline="central">Offer to write a script</text>
+    <text class="ts" x="145" y="418" text-anchor="middle" dominant-baseline="central">Parallelize the work</text>
+    <text class="ts" x="145" y="434" text-anchor="middle" dominant-baseline="central">Minimize run time</text>
+  </g>
+
+  <g class="blue">
+    <rect x="380" y="380" width="270" height="56" rx="8"/>
+    <text class="th" x="515" y="401" text-anchor="middle" dominant-baseline="central">On-prem model could solve it?</text>
+    <text class="ts" x="515" y="420" text-anchor="middle" dominant-baseline="central">Check the registry evidence</text>
+  </g>
+
+  <line x1="440" y1="438" x2="380" y2="498" class="arr" marker-end="url(#arrow)"/>
+  <text class="lbl" x="395" y="470" text-anchor="end">Yes</text>
+  <line x1="560" y1="438" x2="580" y2="498" class="arr" marker-end="url(#arrow)"/>
+  <text class="lbl" x="558" y="470" text-anchor="end">No</text>
+
+  <g class="amber">
+    <rect x="205" y="500" width="265" height="84" rx="8"/>
+    <text class="th" x="337" y="521" text-anchor="middle" dominant-baseline="central">Offer to write a LLM harness</text>
+    <text class="ts" x="337" y="541" text-anchor="middle" dominant-baseline="central">Time and token efficiency</text>
+    <text class="ts" x="337" y="557" text-anchor="middle" dominant-baseline="central">Verifiable output</text>
+    <text class="ts" x="337" y="573" text-anchor="middle" dominant-baseline="central">Track running metrics</text>
+  </g>
+
+  <g class="gray">
+    <rect x="500" y="500" width="160" height="84" rx="8"/>
+    <text class="th" x="580" y="521" text-anchor="middle" dominant-baseline="central">Handle directly</text>
+    <text class="ts caution" x="580" y="541" text-anchor="middle" dominant-baseline="central">Proceed with caution</text>
+    <text class="ts" x="580" y="557" text-anchor="middle" dominant-baseline="central">Suggest an initial</text>
+    <text class="ts" x="580" y="573" text-anchor="middle" dominant-baseline="central">smaller sample run</text>
+  </g>
+</svg>
