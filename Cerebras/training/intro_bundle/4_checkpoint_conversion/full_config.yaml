@@ -2,7 +2,7 @@ trainer:
   fit:
     train_dataloader:
       batch_size: 960
-      data_dir: /home/fungerous/training_intro_bundle/data_processing/nlp/3_h5/
+      data_dir: __BUNDLE_ROOT__/2_data_processing/nlp_from_arrow/3_h5/
       data_processor: GptHDF5MapDataProcessor
       num_workers: 8
       persistent_workers: true
@@ -11,7 +11,7 @@ trainer:
       shuffle_seed: 1337
     val_dataloader: &id001
       batch_size: 300
-      data_dir: /home/fungerous/training_intro_bundle/data_processing/nlp/3_h5/
+      data_dir: __BUNDLE_ROOT__/2_data_processing/nlp_from_arrow/3_h5/
       data_processor: GptHDF5MapDataProcessor
       num_workers: 0
       shuffle: false

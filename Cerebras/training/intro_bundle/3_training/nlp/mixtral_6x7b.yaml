@@ -1,4 +1,4 @@
-# Mixtral model, 8x7B parameters, max_seq_length 2048
+# Mixtral model, 8x7B parameters, max_seq_length 32768
 # Based on: https://huggingface.co/mistralai/Mixtral-8x7B-v0.1
 
 trainer:
@@ -72,10 +72,12 @@ trainer:
       max_gradient_norm: 1.0
     loop:
       # We might want to adjust these later 
-      max_steps: 238418
+      # Tutorial-length default. The original value was 238418; restore it for a real run.
+      max_steps: 10
       eval_steps: 233
     checkpoint:
-      steps: 10000
+      # Tutorial-length default. The original value was 10000; restore it for a real run.
+      steps: 10
       save_initial_checkpoint: true
     logging:
       log_steps: 1
@@ -87,7 +89,7 @@ trainer:
   fit:
     train_dataloader:
       data_processor: GptHDF5DataProcessor
-      data_dir: /home/fungerous/github/ALCF-AIAccelerators-tutorial/Cerebras/training/intro_bundle/2_data_processing/nlp_from_hf/shakespeare_h5/
+      data_dir: __BUNDLE_ROOT__/2_data_processing/nlp_from_hf/shakespeare_h5/
       batch_size: 16
       shuffle: true
       shuffle_seed: 1337
@@ -96,7 +98,7 @@ trainer:
       persistent_workers: true # Important to avoid seeding at each epoch
     val_dataloader: &val_dataloader
       data_processor: GptHDF5DataProcessor
-      data_dir: /home/fungerous/github/ALCF-AIAccelerators-tutorial/Cerebras/training/intro_bundle/2_data_processing/nlp_from_hf/shakespeare_h5/
+      data_dir: __BUNDLE_ROOT__/2_data_processing/nlp_from_hf/shakespeare_h5/
       batch_size: 16
       shuffle: false
       num_workers: 8

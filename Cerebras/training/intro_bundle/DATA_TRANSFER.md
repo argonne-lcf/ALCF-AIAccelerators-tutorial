@@ -1,8 +1,8 @@
 Since you almost certainly want to use your own data for experiments, here are
 a few common methods for migrating data to the Wafer-Scale Cluster. In general,
 any method for transferring files via the internet will work, though note the
-Wafer-Scale Cluster is hosted inside a Cerebras datacenter and so doesn't have
-integration with PSC's globus or other institutional file-sharing infrastructure.
+Wafer-Scale Cluster is hosted inside a Cerebras datacenter, which may limit
+which institutional file-sharing services are reachable from it.
 
 If you're familiar with file transfer toolings and protocols, you likely have
 ideas on how best to migrate your data onto the cluster and so I won't

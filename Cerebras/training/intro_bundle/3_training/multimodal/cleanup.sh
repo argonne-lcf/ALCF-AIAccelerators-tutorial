@@ -1,4 +1,6 @@
 #!/bin/bash
 
-rm -r model_dir/
-rm out.log
+cd "$(dirname "$0")"
+
+rm -rf model_dir/
+rm -f out.log

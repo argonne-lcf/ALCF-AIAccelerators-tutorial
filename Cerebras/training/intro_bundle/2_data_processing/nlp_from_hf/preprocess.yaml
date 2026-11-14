@@ -11,7 +11,11 @@ setup:
     processes: 32
 
 processing:
-    huggingface_tokenizer: "NousResearch/Meta-Llama-3-8B-Alternate-Tokenizer"
+    # Local copy of the Llama-3 tokenizer (vocab_size 128256), so this
+    # step needs no HuggingFace credential. The gated equivalent is
+    # "meta-llama/Meta-Llama-3-8B-Instruct" -- substitute that name here if
+    # you have access and would rather pull it from the Hub.
+    huggingface_tokenizer: "/software/cerebras/acceptance_tests_2025/inference/Meta-Llama-3.1-8B-Instruct"
     write_in_batch: True
     read_hook: "cerebras.modelzoo.data_preparation.data_preprocessing.hooks:text_read_hook"
     read_hook_kwargs:

@@ -1,5 +1,7 @@
 #!/bin/bash
 
-rm -r ./hf_ckpts/*
-rm -r ./cs_ckpts/*
-rm -r ./model_dir/*
+cd "$(dirname "$0")"
+
+rm -rf ./hf_ckpts/
+rm -rf ./cs_ckpts/
+rm -rf ./model_dir/

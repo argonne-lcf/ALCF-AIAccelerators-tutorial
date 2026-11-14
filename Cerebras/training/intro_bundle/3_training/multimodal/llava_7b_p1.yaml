@@ -1,4 +1,3 @@
-# TODO: Correct param values for optimizer and runconfig
 # LLaVA - 7B
 # Text model: Vicuna-7B
 # Image model: CLIP ViT Large with patch 14
@@ -121,11 +120,14 @@ trainer:
       max_gradient_norm: 1.0
       log_loss_scale: true
     loop:
-      max_steps: 2180
-      eval_frequency: 1000
-      eval_steps: 1000
+      # Tutorial-length default. The original value was 100; restore it for a real run.
+      max_steps: 10
+      # Tutorial-length default. The original value was 1000; restore it for a real run.
+      eval_frequency: 5
+      eval_steps: 100
     checkpoint:
-      steps: 1000
+      # Tutorial-length default. The original value was 100; restore it for a real run.
+      steps: 10
     logging:
       log_steps: 1
     callbacks:
@@ -139,8 +141,8 @@ trainer:
   fit:
     train_dataloader:
       data_processor: LlavaHDF5MapDataProcessor
-      data_dir: /cra-864/sylviah/example_data_bundle/multimodal/llava_phase_1/synthdog-en/
-      img_data_dir: /cra-864/sylviah/example_data_bundle/multimodal/llava_images/
+      data_dir: /software/cerebras/dataset/llava/synthdog-en/h5/
+      img_data_dir: /software/cerebras/dataset/llava/
       image_data_size:
       - 3
       - 336
@@ -176,8 +178,8 @@ trainer:
       persistent_workers: true
     val_dataloader: &val_dataloader
       data_processor: LlavaHDF5MapDataProcessor
-      data_dir: /cra-864/sylviah/example_data_bundle/multimodal/llava_phase_1/synthdog-en/
-      img_data_dir: /cra-864/sylviah/example_data_bundle/multimodal/llava_images/
+      data_dir: /software/cerebras/dataset/llava/synthdog-en/h5/
+      img_data_dir: /software/cerebras/dataset/llava/
       image_data_size:
       - 3
       - 336

@@ -2,7 +2,7 @@ trainer:
   fit:
     train_dataloader:
       batch_size: 16
-      data_dir: /home/fungerous/github/ALCF-AIAccelerators-tutorial/Cerebras/training/intro_bundle/2_data_processing/nlp_from_hf/shakespeare_h5/
+      data_dir: __BUNDLE_ROOT__/2_data_processing/nlp_from_hf/shakespeare_h5/
       data_processor: GptHDF5MapDataProcessor
       num_workers: 8
       persistent_workers: true
@@ -11,15 +11,13 @@ trainer:
       shuffle_seed: 1337
     val_dataloader: &id001
       batch_size: 16
-      data_dir: /home/fungerous/github/ALCF-AIAccelerators-tutorial/Cerebras/training/intro_bundle/2_data_processing/nlp_from_hf/shakespeare_h5/
+      data_dir: __BUNDLE_ROOT__/2_data_processing/nlp_from_hf/shakespeare_h5/
       data_processor: GptHDF5MapDataProcessor
       num_workers: 0
       shuffle: false
   init:
     backend:
       backend_type: CSX
-      cluster_config:
-        num_csx: 1
     callbacks:
     - ScopedTrainFlags:
         csx.performance.micro_batch_size: 16
@@ -31,13 +29,16 @@ trainer:
     checkpoint:
       disable_strict_checkpoint_loading: true
       save_initial_checkpoint: false
-      steps: 1000000
+      # Tutorial-length default. The original value was 100; restore it for a real run.
+      steps: 10
     logging:
       log_steps: 1
     loop:
       eval_steps: 2
-      max_steps: 12000
-      eval_frequency: 2384
+      # Tutorial-length default. The original value was 12000; restore it for a real run.
+      max_steps: 10
+      # Tutorial-length default. The original value was 2384; restore it for a real run.
+      eval_frequency: 5
     model:
       name: llama
       attention_dropout_rate: 0.0
