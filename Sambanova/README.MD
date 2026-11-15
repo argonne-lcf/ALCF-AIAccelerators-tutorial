@@ -2,5 +2,5 @@
 
 This hands-on session is divided into two parts: 
 
-* [AI inference using the SambaCloud](./inference/)
+* [AI inference using the SambaCloud](./SC26_Demo/)
 * [AI inference on the Metis: SambaNova SN40L deployed at the ALCF AI testbed](./Metis/)
