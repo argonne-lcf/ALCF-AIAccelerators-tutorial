@@ -56,6 +56,7 @@ apply for [Director’s Discretionary Allocation Program](https://www.alcf.anl.g
 * [Github Tutorial Repository](https://github.com/argonne-lcf/ALCF-AIAccelerators-tutorial)
 * [Overview of AI Testbeds at ALCF](https://www.alcf.anl.gov/alcf-ai-testbed)
 * [ALCF AI Testbed Documentation](https://docs.alcf.anl.gov/ai-testbed/)
+* [ALCF Inference Service](https://docs.alcf.anl.gov/services/inference-endpoints/)
 * [Director’s Discretionary Allocation Program](https://www.alcf.anl.gov/science/directors-discretionary-allocation-program)
 
 
