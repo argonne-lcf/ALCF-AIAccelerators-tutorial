@@ -7,7 +7,7 @@ To access the service, attendees must complete the following three steps:
 ## Step 1: Create or access a Globus account
 If you do not already have a Globus account, create one at https://www.globus.org/.
 
-You can sign in using one of the supported identity providers (IdPs). Please refer to the ALCF Supported Identity Providers documentation (https://docs.alcf.anl.gov/services/inference-endpoints/#supported-identity-providers) for the list of approved providers.
+You can sign in using one of the supported identity providers (IdPs) ```.edu, orcid, github```. 
 
 For your first login, visit Globus File Manager and click LOG IN in the upper-right corner.
 
