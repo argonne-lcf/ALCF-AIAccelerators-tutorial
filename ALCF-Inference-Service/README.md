@@ -43,8 +43,9 @@ alcf-ai ls-models <cluster>	List the models available on a cluster, with capabil
 alcf-ai ls-jobs <cluster>	List the ongoing jobs (running and queued models) for a cluster.
 
 
+alcf-ai chat -c minerva -m beam-1.0-bf16 "How do I know Pi is irrational? Be concise."
 
-alcf-ai chat "How do I know Pi is irrational? Be concise."
+
 
 ```
 
