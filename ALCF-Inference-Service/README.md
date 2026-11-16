@@ -42,8 +42,10 @@ alcf-ai ls-endpoints	List all endpoints available across clusters (raw API respo
 alcf-ai ls-models <cluster>	List the models available on a cluster, with capabilities (raw API response).
 alcf-ai ls-jobs <cluster>	List the ongoing jobs (running and queued models) for a cluster.
 
-
+## few examples
 alcf-ai chat -c minerva -m muse-spark-bf16 "How do I know Pi is irrational? Be concise."
+
+alcf-ai chat -c metis -m gpt-oss-120b "Give a vllm inference benchmarking script"
 
 
 
