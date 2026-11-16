@@ -3,9 +3,7 @@
 
 The Argonne Leadership Computing Facility (ALCF) Inference service provides API access to a variety of state-of-the-art open-source models running on dedicated ALCF hardware: Sophia (Nvidia A100), Metis (SambaNova SN40L), Tara (Nvidia GH200), and Minerva (Nvidia B200).
 
-To access the service, attendees must complete the following steps. 
-
-Please note that access to the ALCF Inference service will remain available only until the end of the tutorial session (11/16/2026 5 PM CT).
+To access the service for the tutorial, attendees must complete the following steps. Please note that access to the ALCF Inference service will remain available only until the end of the tutorial session (11/16/2026 5 PM CT).
 
 ## Step 1: Create or access a Globus account
 If you do not already have a Globus account, create one at https://www.globus.org/.
