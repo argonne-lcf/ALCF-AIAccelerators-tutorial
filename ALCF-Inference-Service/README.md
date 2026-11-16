@@ -5,7 +5,7 @@ The Argonne Leadership Computing Facility (ALCF) Inference service provides API 
 
 To access the service, attendees must complete the following steps. 
 
-Please note that access to the ALCF Inference service will remain available only until the end of the tutorial session.
+Please note that access to the ALCF Inference service will remain available only until the end of the tutorial session (11/16/2026 5 PM CT).
 
 ## Step 1: Create or access a Globus account
 If you do not already have a Globus account, create one at https://www.globus.org/.
