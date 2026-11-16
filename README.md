@@ -27,11 +27,11 @@ In this tutorial, we will cover an overview of the AI accelerators landscape foc
 | 8:30 AM - 8:45 AM     | Welcome and Overview of the ALCF AI Testbed         | Murali           |
 | 8:45 AM - 10:00 AM    | Cerebras           |  Sylvia    |
 | 10:00 AM - 10:30 PM   | -- Coffee Break  --                                       |     
-| 10:30 AM - 11:15 AM   | SambaNova     |   Tim      |
+| 10:30 AM - 11:15 AM   |  Rebellions       |   Taejoon      |
 | 11:15 AM - 12:00 PM   | Discussion and Hands-on     |   Varuni, Murali      |      
 | 12:00 PM - 01:30 PM   | -- Lunch Break    --                                    |                   |
 | 01:30 PM - 02:15 PM   | Tenstorrent                 | Moritz  |
-| 02:15 PM - 03:00 PM   | Rebellions                  | Taejoon  |
+| 02:15 PM - 03:00 PM   |         Sambanova       | Tim  |
 | 03:00 PM - 03:30 PM   | -- Coffee Break  --            |   
 | 03:30 PM - 04:15 PM   | d-Matrix            | Satyam, Saliya |
 | 04:15 PM - 05:00 PM   | Discussion and Hands-on       |  Varuni, Murali        |
