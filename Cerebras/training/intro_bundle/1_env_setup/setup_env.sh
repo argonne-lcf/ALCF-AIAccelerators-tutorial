@@ -4,17 +4,17 @@
 # environment stays activated when the script finishes.
 #
 # To re-activate later, from anywhere:
-#     source <bundle>/venvs/r2.10/bin/activate
+#     source ~/venvs/cb-tutorial/bin/activate
 #
-# Set CSBUNDLE_VENV to put the virtual environment somewhere other than
-# inside the bundle, e.g.  export CSBUNDLE_VENV=$HOME/venvs
+# Set CSBUNDLE_VENV to put the virtual environment somewhere else, for
+# example inside the bundle:  export CSBUNDLE_VENV=$PWD/venvs
 
 # Resolve the bundle root from this script's own location, so the bundle
 # works wherever you copied it to.
 BUNDLE_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]:-$0}")/.." && pwd)"
-VENV_ROOT="${CSBUNDLE_VENV:-$BUNDLE_ROOT/venvs}"
+VENV_ROOT="${CSBUNDLE_VENV:-$HOME/venvs}"
 echo "Bundle root:  $BUNDLE_ROOT"
-echo "Virtual env:  $VENV_ROOT/r2.10"
+echo "Virtual env:  $VENV_ROOT/cb-tutorial"
 
 # Rewrite the __BUNDLE_ROOT__ placeholders in the training configs so they
 # point at this copy of the bundle. Safe to run more than once.
@@ -26,14 +26,14 @@ export HTTP_PROXY='http://proxy.alcf.anl.gov:3128'
 
 # Create and initialize new virtual environment.
 mkdir -p "$VENV_ROOT"
-python3.11 -m venv "$VENV_ROOT/r2.10"
-source "$VENV_ROOT/r2.10/bin/activate"
+python3.11 -m venv "$VENV_ROOT/cb-tutorial"
+source "$VENV_ROOT/cb-tutorial/bin/activate"
 
 # Persist the proxy into the virtual environment, so that re-activating it in
 # a later session still has internet access. Without this, stage 2 and stage 4
 # fail to download in any shell where setup_env.sh was not sourced.
-if ! grep -q 'proxy.alcf.anl.gov' "$VENV_ROOT/r2.10/bin/activate"; then
-    cat >> "$VENV_ROOT/r2.10/bin/activate" <<'PROXY'
+if ! grep -q 'proxy.alcf.anl.gov' "$VENV_ROOT/cb-tutorial/bin/activate"; then
+    cat >> "$VENV_ROOT/cb-tutorial/bin/activate" <<'PROXY'
 
 # Added by the training bundle's setup_env.sh -- needed to reach the
 # internet from the ALCF cluster.

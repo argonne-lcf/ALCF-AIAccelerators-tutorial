@@ -36,8 +36,8 @@ GETTING STARTED
 
        source 1_env_setup/setup_env.sh
 
-   This builds a Python 3.11 virtual environment at `venvs/r2.10` inside the
-   bundle, installs modelzoo 2.10, sets the ALCF HTTP proxy, and confirms the
+   This builds a Python 3.11 virtual environment at `~/venvs/cb-tutorial`,
+   installs modelzoo 2.10, sets the ALCF HTTP proxy, and confirms the
    client stack can reach the appliance. Set `CSBUNDLE_VENV` beforehand if you
    want the virtual environment somewhere else.
 
@@ -49,43 +49,8 @@ GETTING STARTED
 3. Work through `2_data_processing`, `3_training` and `4_checkpoint_conversion`
    in order. To re-activate the environment in a later session:
 
-       source ~/training_intro_bundle/venvs/r2.10/bin/activate
+       source ~/venvs/cb-tutorial/bin/activate
 
-
-A NOTE ON RUN LENGTH
---------------------
-
-Every training config here ships with `max_steps: 10` so that a first run
-finishes quickly and hands the wafer back. This is a tutorial default, not a
-meaningful amount of training. Each config records the author's original
-value in a comment next to the setting -- 12,000 steps for the two Llama
-configs, 238,418 for Mixtral -- so you can restore it when you want to run
-something real.
-
-Note also that "tiny" in `llama3_tiny_msl_2k` means two layers, not a small
-model: it is full Llama-3-8B width (hidden size 4096, 32 heads). None of
-these are cheap per step. The cluster is shared, so raise `max_steps` only
-when you actually intend a long run.
-
-What that costs in practice, measured on this cluster with
-`llama3_tiny_msl_2k.yaml` at its shipped settings:
-
-    whole 10-step run, cold          ~19 minutes
-      of which: 10 training steps      ~1 second
-      of which: writing one checkpoint ~2 minutes
-      the remaining ~16 minutes is queue wait, compile and appliance
-      staging, which the client log does not separate
-    steady throughput                 ~75 samples/sec at batch size 16
-    one checkpoint on disk            ~17.9 GB
-
-Two things follow. Compilation and setup dominate a short run, so re-running
-the same config is far quicker -- the compile is cached and reused. And
-checkpoints are large: the author's original `checkpoint.steps: 100` over
-12,000 steps would write about 120 of them, so raise `max_steps` and
-`checkpoint.steps` together.
-
-Note that `run.sh` writes `out.log` in its own directory and overwrites it
-each run. Copy it elsewhere if you want to keep a record.
 
 A NOTE ON DATA AND TOKENIZERS
 -----------------------------

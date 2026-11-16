@@ -24,7 +24,7 @@ export CEREBRAS_API_KEY="your-api-key-here"
 Now create a Python virtual environment for installing relevant packages, for instance:
 
 ```
-python -m venv /tmp/cb-inference
+python -m venv ~/venvs/cb-inference
 ```
 
 This directory includes a `requirements.txt` file with relevant packages to install into your
@@ -32,24 +32,26 @@ environment, including the Cerebras Inference library package `cerebras_cloud_sd
 environment and install the packages:
 
 ```
-source /tmp/cb-inference/bin/activate
+source ~/venvs/cb-inference/bin/activate
 pip install -r requirements.txt
 ```
 
+If you have already set up the training bundle, activate `~/venvs/cb-tutorial` instead and
+skip both steps — `cerebras_cloud_sdk` is a dependency of the modelzoo, so it is already there.
+
 ## Step 3: Run Inference
 
-The Cerebras Inference cloud currently supports the following models:
+On the public tier, chat completions are served by:
 
- | Model Name				| Model ID			 | Parameters	| Speed (tokens/s)
- | ------------------------------------ | ------------------------------ | ------------ | ---------------
- | Llama 3.1 8B				| `llama3.1-8b`			 | 8 billion	| ~2200 tokens/s
- | Llama 3.3 70B			| `llama-3.3-70b`		 | 70 billion	| ~2100 tokens/s
- | OpenAI GPT OSS			| `gpt-oss-120b`		 | 120 billion	| ~3000 tokens/s
- | Qwen 3 32B				| `qwen-3-32b`			 | 32 billion	| ~2600 tokens/s
- | Qwen 3 235B Instruct (preview only)	| `qwen-3-235b-a22b-instruct-2507` | 235 billion | ~1400 tokens/s
- | Z.ai GLM 4.7 (preview only)		| `zai-glm-4.7` 		 | 355 billion | ~1000 tokens/s
+ | Model Name		| Model ID		| Parameters
+ | -------------------- | --------------------- | ------------
+ | OpenAI GPT OSS	| `gpt-oss-120b`	| 120 billion
+ | Qwen 3 27B		| `qwen-3.8-27b`	| 27 billion
 
-Try a simple chat completion with `Llama 3.1 8B` by running the below Python code snippet,
+Every example in this directory uses `gpt-oss-120b`. For the current catalogue, see the
+[Cerebras Inference model documentation](https://inference-docs.cerebras.ai/introduction).
+
+Try a simple chat completion with `OpenAI GPT OSS` by running the below Python code snippet,
 which can be found in `test.py` in this directory:
 
 ```
@@ -68,7 +70,7 @@ chat_completion = client.chat.completions.create(
             "content": "Why is fast inference important?",
         }
 ],
-    model="llama3.1-8b",
+    model="gpt-oss-120b",
 )
 
 print(chat_completion.model_dump_json(indent=2))

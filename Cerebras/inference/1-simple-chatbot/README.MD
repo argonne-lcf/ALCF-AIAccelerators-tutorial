@@ -27,10 +27,10 @@ an infinite loop, is implemented in `main.py`.
    ```python
    response = client.chat.completions.create(
        messages=[user_message],
-       model="llama3.1-8b"
+       model="gpt-oss-120b"
    )
    ```
-   This API call sends the user message to the specified model (e.g., "llama3.1-8b") and retrieves the assistant’s response.
+   This API call sends the user message to the specified model (e.g., "gpt-oss-120b") and retrieves the assistant’s response.
 
 4. **Performance Metrics Calculation**
    ```python
@@ -40,4 +40,4 @@ an infinite loop, is implemented in `main.py`.
    ```
    After receiving the response, the total tokens used and the total processing time are extracted from the response object. Tokens per second are then calculated by dividing the total tokens by the total time.
 
-Try using another model, such as `qwen-3-32b`, and compare responses.
+Try adding a `system` message or changing `temperature`, and compare responses.

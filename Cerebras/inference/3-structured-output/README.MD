@@ -49,7 +49,7 @@ response is in a consistent JSON format.
 
    ```
    completion = client.chat.completions.create(
-       model="llama-4-scout-17b-16e-instruct",
+       model="gpt-oss-120b",
        messages=[
            {"role": "system", "content": "You are a helpful assistant that generates movie recommendations."},
            {"role": "user", "content": "Suggest a sci-fi movie from the 1990s"}

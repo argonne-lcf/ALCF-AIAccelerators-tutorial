@@ -99,7 +99,7 @@ of these tools to perform its task.
    
    # Generate response from model
    response = client.chat.completions.create(
-       model="llama3.1-8b",
+       model="gpt-oss-120b",
        messages=messages,
        tools=tools,
    )

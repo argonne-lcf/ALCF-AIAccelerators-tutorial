@@ -22,7 +22,7 @@ while True:
 
     response = client.chat.completions.create(
         messages=[user_message],
-        model="llama3.1-8b",
+        model="gpt-oss-120b",
     )
     # Append the user's response to the chat history
     chat_history.append({

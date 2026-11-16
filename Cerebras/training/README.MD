@@ -111,7 +111,7 @@ The above workflow is all well and good if we already have a dataset of interest
 Let's begin:
 
 ```bash
-cd ../nlp_from_disk/
+cd ../nlp_from_arrow/
 cat run.sh
 
 # Output:
