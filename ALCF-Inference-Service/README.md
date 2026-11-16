@@ -6,16 +6,29 @@ The Argonne Leadership Computing Facility (ALCF) Inference service provides API 
 To access the service for the tutorial, attendees must complete the following steps. Please note that access to the ALCF Inference service will remain available only until the end of the tutorial session (11/16/2026 5 PM CT).
 
 ## Step 1: Create or access a Globus account
-If you do not already have a Globus account, create one at https://www.globus.org/.
+<!--- If you do not already have a Globus account, create one at https://www.globus.org/.
 
 You can sign in using one of the supported identity providers (IdPs) ```.edu, orcid, github```. Please refer to the ALCF Supported Identity Providers documentation (https://docs.alcf.anl.gov/services/inference-endpoints/#supported-identity-providers) for the list of approved providers.
 
 For your first login, visit Globus File Manager and click LOG IN in the upper-right corner.
 
-Join the globus group https://app.globus.org/groups/0b0f544d-df8b-11f1-aab9-0efff6ef87d5/. 
+Join the globus group https://app.globus.org/groups/0b0f544d-df8b-11f1-aab9-0efff6ef87d5/. --->
+
+1. Open https://app.globus.org/ click **Log In** in the upper-right corner.
+2. Choose how you want to log in:
+   - **GitHub** or **ORCID** – click the matching button, or
+   - **Your institution** – search for your university or lab in the list and select it.
+   See the [supported identity providers](https://docs.alcf.anl.gov/services/inference-endpoints/#supported-identity-providers) for the full list.
+3. Sign in with that provider.
+4. **First-time Globus users only:** you will see *"Welcome – You've Successfully Logged In"*. Click **Continue**, then fill in your name, email and organization, and accept the Globus terms.
+5. While still logged in, open the tutorial group:
+   https://app.globus.org/groups/0b0f544d-df8b-11f1-aab9-0efff6ef87d5/
+6. Click **Join this Group** and submit the request.
+7. Wait for a tutorial organizer to approve your request. Move to Step 2 only once your request is approved and your status shows **Active**.
+
 
 ## Step 2: Use the inference service with alcf-ai CLI
-[alcf-ai](https://docs.alcf.anl.gov/services/inference-endpoints/alcf-ai/) is the ALCF AI Inference Services SDK. It provides a command line interface for authentication, 
+<!--- [alcf-ai](https://docs.alcf.anl.gov/services/inference-endpoints/alcf-ai/) is the ALCF AI Inference Services SDK. It provides a command line interface for authentication, 
 chat, endpoint discovery, image segmentation, and agent configuration.
 
 For authentication, ```alcf-ai``` reads the tokens cached by the shared ```alcf-tokens``` CLI which can be installed by ```pip install alcf-tokens```. 
@@ -43,7 +56,45 @@ alcf-ai ls-jobs <cluster>	List the ongoing jobs (running and queued models) for 
 ## few examples
 alcf-ai chat -c minerva -m muse-spark-bf16 "How do I know Pi is irrational? Be concise."
 
-alcf-ai chat -c metis -m gpt-oss-120b "Give a vllm inference benchmarking script"
+alcf-ai chat -c metis -m gpt-oss-120b "Give a vllm inference benchmarking script" --->
+
+[alcf-ai](https://docs.alcf.anl.gov/services/inference-endpoints/alcf-ai/) is the ALCF AI Inference Services command-line tool. It lets you log in, list available models, and chat with them.
+
+1. **Install** (requires Python 3.10 or newer). This also installs `alcf-tokens`, which handles login:
+   ```bash
+   pip install alcf-ai
+   ```
+
+2. **Log in to the inference service:**
+   ```bash
+   alcf-tokens login inference
+   ```
+   The command prints a URL. Open it in your browser, log in with the same identity you used in Step 1, click **Allow**, then copy the code shown and paste it back into the terminal.
+
+3. **Check that your login works:**
+   ```bash
+   alcf-tokens test-token inference
+   ```
+   To see your account details, run:
+   ```bash
+   token=$(alcf-tokens get-token inference)
+   curl -s https://inference-api.alcf.anl.gov/resource_server/whoami \
+        -H "Authorization: Bearer ${token}"
+   ```
+   The output should show your username and the tutorial group ID `0b0f544d-df8b-11f1-aab9-0efff6ef87d5`.
+
+4. **See what's available.** Clusters: `sophia` (Nvidia A100), `metis` (SambaNova SN40L), `tara` (Nvidia GH200), `minerva` (Nvidia B200).
+   ```bash
+   alcf-ai ls-endpoints          # all endpoints across clusters
+   alcf-ai ls-models tara        # models available on a cluster
+   alcf-ai ls-jobs tara          # models currently running or queued on a cluster
+   ```
+
+5. **Chat with a model:**
+   ```bash
+   alcf-ai chat -c tara -m beam-1.0-fp8 "How do I know Pi is irrational? Be concise."
+   ```
+   Use `-c` to pick the cluster and `-m` to pick a model from `alcf-ai ls-models <cluster>`. Run `alcf-ai chat --help` for more options.
 
 
 
