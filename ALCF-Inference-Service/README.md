@@ -34,7 +34,7 @@ token=$(alcf-tokens get-token inference)
 
 # to test your account
 curl -X GET "https://inference-api.alcf.anl.gov/resource_server/whoami" \
-     -H "Authorization: Bearer ${access_token}"
+     -H "Authorization: Bearer ${token}"
 
 
 ## list endpoints on clusters sophia (Nvidia A100), metis (SambaNova SN40L), tara (Nvidia GH200), and minerva (Nvidia B200)
